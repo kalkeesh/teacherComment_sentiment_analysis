@@ -67,6 +67,19 @@ else:
 
         display_pie_chart(filtered_df)
         display_sample_data(filtered_df)
+        st.subheader("about creator")
+        with st.expander("kalkeesh jami"):
+            st.image("mepic.jpg", use_column_width=True)  
+            st.write("""
+            Hello! I'm KALKEESH JAMI #AKA Kalki, a passionate developer exploring the world of AI and programming.
+            
+            - I love building applications that make life easier.
+            - I'm good at Python and data analysis.
+            - Don't misunderstand me as a nerd; I'm socially adept too! 😄
+            - Thank you for checking out my app!
+            
+            Do check out my [LinkedIn](https://www.linkedin.com/in/kalkeesh-jami-42891b260/) and [GitHub](https://github.com/kalkeesh/).
+            """)
 
     elif chart_type == 'Employee-Positive-Sentiment':
         display_bar_chart(df)
