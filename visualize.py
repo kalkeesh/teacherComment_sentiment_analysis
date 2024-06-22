@@ -67,7 +67,7 @@ else:
 
         display_pie_chart(filtered_df)
         display_sample_data(filtered_df)
-        st.subheader("about creator")
+        st.subheader("About Creator")
         with st.expander("kalkeesh jami"):
             st.image("mepic.jpg", use_column_width=True)  
             st.write("""
