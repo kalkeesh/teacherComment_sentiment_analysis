@@ -4,6 +4,9 @@ import plotly.graph_objects as go
 import plotly.express as px
 
 global df
+
+st.set_page_config(page_title="teach vibe", page_icon = "🚀", layout = "wide", initial_sidebar_state = "auto")
+
 df = pd.read_csv("feedbackData.csv")
 st.title('LECTURER SENTIMENT ANALYSIS')
 
